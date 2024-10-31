@@ -1,4 +1,4 @@
-# java-cli-maven-mysql-hibernate-simple
+# java-cli-maven-blade-mysql-hibernate-simple
 
 ## Description
 Creates a small database table
@@ -10,7 +10,7 @@ hql.
 - maven
   - hibernate
   - hql
-  - log4j
+  - blade
   - mysql driver
 
 ## Docker stack
