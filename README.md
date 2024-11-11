@@ -1,4 +1,4 @@
-# java-cli-maven-blade-mysql-hibernate-simple
+# java-cli-maven-blade-postgres-hibernate-simple
 
 ## Description
 Creates a small database table
@@ -11,11 +11,11 @@ hql.
   - hibernate
   - hql
   - blade
-  - mysql driver
+  - postgres driver
 
 ## Docker stack
 - maven:3-openjdk-17
-- mariadb:latest
+- postgres:alpine
 
 ## To run
 `sudo ./install.sh -u`
