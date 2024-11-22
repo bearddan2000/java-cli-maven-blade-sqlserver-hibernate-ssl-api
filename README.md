@@ -1,9 +1,9 @@
-# java-cli-maven-blade-postgres-hibernate-simple
+# java-cli-maven-blade-sqlserver-hibernate-ssl-api
 
 ## Description
 Creates a small database table
 called `dog` and populates with
-hql.
+hql. Provides end-to-end self signed ssl certs.
 
 ## Tech stack
 - java
@@ -11,11 +11,13 @@ hql.
   - hibernate
   - hql
   - blade
-  - postgres driver
+  - mssql driver
 
 ## Docker stack
+- alpine:edge
 - maven:3-openjdk-17
-- postgres:alpine
+- mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+- traefik:v2.4
 
 ## To run
 `sudo ./install.sh -u`
